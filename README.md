@@ -1,5 +1,5 @@
 # Análisis de Regresión Lineal Múltiple en Python
-
+![Regresión Lineal Múltiple](assets/Predicciones%20vs%20Valores%20Reales%20(Modelo%20Óptimo).png)
 ## Tabla de Contenidos
 
 - [Descripción](#descripción)
@@ -35,14 +35,11 @@ Este proyecto tiene como objetivo implementar y analizar un modelo de **Regresi�
 
 Sigue estos pasos para configurar el entorno de desarrollo y ejecutar el proyecto:
 
-- **Clonar el Repositorio**
-    git clone https://github.com/moises60/Calculo_de_Esfuerzos_y_Deformaciones_en_Vigas_python.git
+## Clonar el Repositorio
+    git clone https://github.com/moises60/Regresion-Lineal-Multiple-machine-learning-Python.git
 
-- **Acceder a la Carpeta**
-    cd conCalculo_de_Esfuerzos_y_Deformaciones_en_Vigas_python
-    
-- **Ejecutar el Juego**
-    python3 main.py
+## Acceder a la Carpeta
+    cd Regresion-Lineal-Multiple-machine-learning-Python
 
 ## Uso
 El proyecto consta de dos scripts principales: 
@@ -84,13 +81,6 @@ Se ajustó un modelo de Regresión Lineal Múltiple utilizando todas las variabl
 
 ![Comparación de Salarios Reales y Predichos (Modelo Inicial)](assets/Comparación%20de%20Salarios%20Reales%20y%20Predichos%20(Modelo%20Inicial).png)
 
-![Predicciones vs Valores Reales (Modelo Óptimo)](assets/Predicciones%20vs%20Valores%20Reales%20(Modelo%20Óptimo).png)
-
-![Distribución de los Residuales (Modelo Óptimo)](assets/Distribución%20de%20los%20Residuales%20(Modelo%20Óptimo).png)
-
-![Importancia de las Características en el Modelo Óptimo](assets/Importancia%20de%20las%20Características%20en%20el%20Modelo%20Óptimo.png)
-
-![Comparación de Salarios Reales y Predichos (Modelo Óptimo)](assets/Comparación%20de%20Salarios%20Reales%20y%20Predichos%20(Modelo%20Óptimo).png)
 
 ## 4. Eliminación Hacia Atrás (Backward Elimination)
 Se implementó la técnica de eliminación hacia atrás para optimizar el modelo:
@@ -99,7 +89,13 @@ Ajuste del Modelo OLS: Se ajusta un modelo de mínimos cuadrados ordinarios (OLS
 Evaluación de P-valores: Se identifican las variables con p-valores más altos.
 Eliminación de Variables: Se elimina la variable con el p-valor más alto si excede un umbral de significancia (α = 0.05).
 Repetición: El proceso se repite hasta que todas las variables restantes sean estadísticamente significativas.
+![Predicciones vs Valores Reales (Modelo Óptimo)](assets/Predicciones%20vs%20Valores%20Reales%20(Modelo%20Óptimo).png)
 
+![Distribución de los Residuales (Modelo Óptimo)](assets/Distribución%20de%20los%20Residuales%20(Modelo%20Óptimo).png)
+
+![Importancia de las Características en el Modelo Óptimo](assets/Importancia%20de%20las%20Características%20en%20el%20Modelo%20Óptimo.png)
+
+![Comparación de Salarios Reales y Predichos (Modelo Óptimo)](assets/Comparación%20de%20Salarios%20Reales%20y%20Predichos%20(Modelo%20Óptimo).png)
 
 ## 5. Evaluación y Comparación de Modelos
 ## Comparativa de Métricas
